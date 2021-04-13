@@ -14,6 +14,8 @@
 
 + 生成模型：UniLM（重头写一个BERT，然后修改attention_mask和计算loss的部分即可得到UniLM）
 
++ 模型蒸馏：使用https://github.com/airaria/TextBrewer将12层的UniLM蒸馏到3层的Roberta中
+
 
 
 训练生成模型的数据：https://cloud.tsinghua.edu.cn/f/f131a4d259184566a29c/
